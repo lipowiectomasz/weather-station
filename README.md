@@ -5,9 +5,9 @@ Za działanie stacji odpowiada płytka Arduino Uno R3, która przyjmuje dane z 5
 Wartości mierzone przy pomocy czujników:
 - natężenie światła otoczenia,
 - czystość powietrza,
-- czujnik opadów,
-- czujnik dźwięku,
-- czujnik temperatury i wilgotności.
+- obecność opadów,
+- natężenie dźwięku,
+- temperatura i wilgotność.
 
 Odnotowane wartości wyświetlane są na wyświetlaczu LCD 2'' umieszczonym w dwunastościennej obudowie wraz z pozostałymi komponentami oraz źródłem zasilania.
 
