@@ -1,0 +1,67 @@
+<!DOCTYPE=html>
+<html lang="pl">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta desctiption="Full information about your weather every day."/>
+	<meta name="keywords" content="weather, temperature, pressure, downfall"/>
+	
+	<title>WeatherStation!</title>
+	<link rel="stylesheet" href="main_style.css" type="text/css" />
+	<link rel="icon" type="image/png" href="images/icon.png"/>
+	
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet"/>
+	
+	
+	<script src="jquery-3.6.0.min.js"></script>
+	<script src="data.js"></script>
+
+</head>
+<body>
+<div id="sensor_border">
+			<div class="indicator">
+				<h1>Temperature</h1>
+				<figure>
+					<img src="images/temp.png">
+				</figure>
+				<p id="temp"></p>
+			</div>
+			<div class="indicator">
+				<h1>Humidity</h1>
+				<figure>
+					<img src="images/hum.png">
+				</figure>
+				<p id="hum"></p>
+			</div>
+			<div class="indicator" >
+				<h1>Rain</h1>
+				<figure>
+					<img src="images/fall.png">
+				</figure>
+				<p id="fall"></p>
+			</div>
+		
+			<div class="indicator" style="clear: left;">
+				<h1>Air quality</h1>
+				<figure>
+					<img src="images/quality.png">
+				</figure>
+				<p id="quality"></p>
+			</div>
+			<div class="indicator">
+				<h1>Light intensity</h1>
+				<figure>
+					<img src="images/light.png">
+				</figure>
+				<p id="light"></p>
+			</div>
+			<div class="indicator">
+				<h1>Sound sensor</h1>
+				<figure>
+					<img src="images/vvDb.png">
+				</figure>
+				<p id="vvDb"></p>
+			</div>
+		</div>
+</body>
+
+</html>
