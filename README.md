@@ -1,24 +1,26 @@
-Projekt stacji pogodowej stworzony na potrzeby przedmiotu o nazwie Mikrokomputery.
+# Weather Station
 
-Za działanie stacji odpowiada płytka Arduino Uno R3, która przyjmuje dane z 5 podłączonych do niej czujników, które następnie przy pomocy modułu ESP-01 przesyła do lokalnego serwera webowego.
+### Project of weather station made at the university.
 
-Wartości mierzone przy pomocy czujników:
-- natężenie światła otoczenia,
-- czystość powietrza,
-- obecność opadów,
-- natężenie dźwięku,
-- temperatura i wilgotność.
+Station is based on Arduino Uno R3. It use 5 sensors to measure parameters such as:
 
-Odnotowane wartości wyświetlane są na wyświetlaczu LCD 2'' umieszczonym w dwunastościennej obudowie wraz z pozostałymi komponentami oraz źródłem zasilania.
+- light intensity,
+- air quality,
+- downfall,
+- acoustic intensity,
+- temperature and humidity.
+
+Arduino communicate with network through the ESP-01 module and send data to server with database.
+
+Parameters values are displayn on LCD-2 display placed on dodecahedron made of plexi glass.
 
 ![Zasób 1](https://user-images.githubusercontent.com/105055717/167175601-c84a0cd4-256d-497b-8353-6d0d9ac97967.png)
 
-Moduł ESP przesyła te same dane do serwera, który zapisuje je w bazie oraz wyświetla na lokalnej stronie. 
-Proces ten opisuje rysunek:
+ESP is sending data to server where they are save in database, and putting in website. (rocess explained on diagram bellow)
 
 ![Diagram](https://user-images.githubusercontent.com/105055717/167177576-be5b002c-02ae-4e7d-b7fe-af5df91f298c.png)
 
-Strona internetowa udostępnia dwie podstrony podglądu:
+Website have 2 view ( 1 - current values, 2 - database values ) 
 
 ![site1s](https://user-images.githubusercontent.com/105055717/167178622-103552f1-0584-4208-a455-1565ec3a0b8a.png)
 
